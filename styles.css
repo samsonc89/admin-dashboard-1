@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-auto-columns: 1fr 2fr;
+  justify-items: center;
 }
 
 .header {
@@ -32,4 +33,5 @@
 
 .sidebar-names {
   grid-column: 2/3;
+  justify-self: start;
 }
