@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template: auto 1fr auto / 1fr 3fr;
 }
 
 .sidebar {
@@ -8,6 +8,7 @@
   grid-area: 1/1/3/2;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-auto-columns: 1fr 2fr;
 }
 
 .header {
