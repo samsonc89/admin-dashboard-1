@@ -10,6 +10,7 @@
   grid-template-columns: 1fr 2fr;
   grid-auto-columns: 1fr 2fr;
   justify-items: center;
+  padding-top: 10px;
 }
 
 .header {
@@ -29,12 +30,17 @@
 #logo {
   width: 40px;
   height: 40px;
+  /* margin-right: -20px; */
+  margin-bottom: 20px;
 }
 
 .sidebar-names {
   grid-column: 2/3;
   justify-self: start;
   color: white;
+  text-decoration: none;
+  margin: 10px 0 10px 0;
+  font-weight: bold;
 }
 
 .sidebar-icon {
@@ -43,4 +49,5 @@
   width: 20px;
   height: 20px;
   align-self: center;
+  margin-right: -20px;
 }
