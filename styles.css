@@ -62,3 +62,36 @@ body {
 #sidebar-header {
   font-size: larger;
 }
+
+/* styling search bar */
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.search {
+  border: 1px solid rgb(162, 162, 162);
+  border-radius: 25px;
+  height: 20px;
+  padding: 5px;
+  float: left;
+  margin: 7px;
+}
+
+.search input[type="text"] {
+  /* border-radius: 25px;*/
+  border: none;
+}
+
+.search button {
+  background-color: #ffffff;
+  color: #bbbbbb;
+  float: left;
+  height: 20px;
+  padding-right: 0;
+  border: none;
+  cursor: pointer;
+}
