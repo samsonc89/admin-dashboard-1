@@ -60,10 +60,8 @@ body {
   min-height: 80px;
   display: flex;
   justify-content: space-between;
-}
-
-.notification svg {
-  color: #8d8d8d;
+  padding: 10px 15px;
+  /* margin-top: 10px; */
 }
 
 /* styling search bar */
@@ -81,7 +79,6 @@ button:focus {
   height: 20px;
   padding: 5px;
   float: left;
-  margin: 7px;
 }
 
 .search input[type="text"] {
@@ -101,4 +98,25 @@ button:focus {
 .content {
   background-color: lightgrey;
   grid-area: 2/2/3/3;
+}
+
+/* header right side */
+
+.header-right {
+  display: flex;
+  margin-right: 10px;
+}
+
+.notification svg {
+  color: #8d8d8d;
+}
+
+.profile {
+  height: 50px;
+  width: 50px;
+}
+
+.profile img {
+  height: 100%;
+  width: 100%;
 }
