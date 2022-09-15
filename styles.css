@@ -59,7 +59,7 @@ body {
   grid-column: 2/3;
   min-height: 80px;
   display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template: 1fr 2fr / 1fr 1fr;
   padding: 10px 15px;
   /* margin-top: 10px; */
 }
@@ -95,11 +95,6 @@ button:focus {
   cursor: pointer;
 }
 
-.content {
-  background-color: lightgrey;
-  grid-area: 2/2/3/3;
-}
-
 /* header right side */
 
 .header-right {
@@ -114,13 +109,28 @@ button:focus {
   color: #8d8d8d;
 }
 
-.profile {
-  height: 50px;
-  width: 50px;
+.profile-icon {
+  height: 40px;
+  width: 40px;
 }
 
 .profile img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-main {
+  height: 80px;
+  width: 80px;
+}
+
+.content {
+  background-color: lightgrey;
+  grid-area: 2/2/3/3;
 }
