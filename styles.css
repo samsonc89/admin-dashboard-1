@@ -133,4 +133,10 @@ button:focus {
 .content {
   background-color: lightgrey;
   grid-area: 2/2/3/3;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.updates-container {
+  background-color: rgb(139, 138, 138);
 }
