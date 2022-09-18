@@ -171,3 +171,9 @@ h3 {
 .card {
   border: 1px solid black;
 }
+
+.card-img {
+  background-color: white;
+  height: 70%;
+  width: 100%;
+}
