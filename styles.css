@@ -184,3 +184,22 @@ h3 {
 .card-title {
   margin: 10px;
 }
+
+.card-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-bar {
+  margin: 0;
+}
+
+.card button {
+  background: none;
+  border: none;
+}
+
+.card svg {
+  color: blue;
+}
