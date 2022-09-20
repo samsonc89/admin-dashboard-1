@@ -133,7 +133,7 @@ button:focus {
 /* style content area */
 
 .content {
-  background-color: lightgrey;
+  background-color: #e0dfdf;
   grid-area: 2/2/3/3;
   min-height: 80vh;
   display: grid;
@@ -144,7 +144,7 @@ button:focus {
 
 h3 {
   grid-column: 1/-1;
-  /* grid-area: 1/1/2/-1; */
+
   margin: 0;
   padding: 5px;
 }
@@ -207,7 +207,6 @@ h3 {
 /* style updates container */
 
 .updates-container {
-  background-color: lightgrey;
   padding: 15px 25px 15px 0;
   display: flex;
   flex-direction: column;
@@ -218,6 +217,7 @@ h3 {
   border: 1px solid black;
   padding: 15px;
   border-radius: 15px;
+  background-color: white;
 }
 
 .reminder-title {
