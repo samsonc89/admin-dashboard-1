@@ -169,6 +169,7 @@ h3 {
   align-items: center;
   border-radius: 15px;
   overflow: hidden;
+  justify-content: space-between;
 }
 
 .card-img {
