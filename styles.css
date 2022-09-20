@@ -112,6 +112,7 @@ button:focus {
   gap: 20px;
   justify-self: end;
   align-items: center;
+  padding-right: 10px;
 }
 
 .notification svg {
@@ -199,7 +200,7 @@ h3 {
 
 .updates-container {
   background-color: lightgrey;
-  padding: 15px;
+  padding: 15px 25px 15px 0;
 }
 
 .updates-box {
